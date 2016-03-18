@@ -46,7 +46,8 @@ body {
     list-style-type: none;
 }
 .top-nav_items{
-    float: right;
+    float: left;
+    margin-left: 110px;
 }
 .top-nav_items ul li{
     display: inline-block;
@@ -70,6 +71,14 @@ body {
     color: #46b2d4;
     float: right;
     margin-left: 20px;
+    float: left;
+}
+/*PROMO*/
+.promo{
+    background-image: url(../img/drops.jpg);
+    min-height: 500px;
+    width: 100%;
+    
 }
 
 

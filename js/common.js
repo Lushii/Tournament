@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $(".top-nav_button").click(function(){
-        $(this).next().slideToggle();
+    $(".top-nav_button").click(function() {
+        $(".top-nav_items ul").slideToggle();
     });
 
 	//Таймер обратного отсчета
