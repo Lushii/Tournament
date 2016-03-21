@@ -77,9 +77,12 @@ body {
 
 /*PROMO*/
 .promo{
-    background-image: url(../img/drops.png);
+    background-image: url(../img/PromoBGR.png);
     min-height: 500px;
     width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .promo-title{
