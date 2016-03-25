@@ -78,8 +78,8 @@ body {
 /*PROMO*/
 .promo{
     background-image: url(../img/PromoBGR.png);
-    min-height: 500px;
-    width: 100%;
+    height: 546px;
+    min-width: 1270px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
