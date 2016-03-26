@@ -9,7 +9,7 @@
 @media only screen and (max-width : 992px) {
    .top-nav_items ul{
         display: none;
-        background-color: #89cee5;
+        background-color: darkseagreen;
         position: absolute;
         width: 100%;
         padding: 10px 10px;
@@ -28,6 +28,9 @@
     }
    .top-nav_items{
         margin-left: 0;
+    }
+   .main-title_name{
+    display: none;    
     }
 }
 
@@ -74,4 +77,13 @@
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+}
+
+/* font-family: "FedraSansPro-Bold"; */
+@font-face {
+	font-family: ;
+	src: url("../fonts/FedraSansPro-Bold/FedraSansPro-Bold.otf");
+	src: url("../fonts/fonts/FedraSansPro-Bold/FedraSansPro-Bold.otf?#iefix")format("otf");
+	font-style: normal;
+	font-weight: normal;
 }
