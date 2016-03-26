@@ -29,8 +29,9 @@ body {
 }
 /*HEADER*/
 .header-topline{
-    background-color: #e2e7eb;
+    background-color: #dff0d8;
     padding: 15px 0;
+    height: 56px;
     
 }
 .header-topline a{
@@ -73,7 +74,21 @@ body {
     margin-left: 20px;
     float: left;
 }
-/*SLIDER-TOP*/
+/*TITLE*/
+.main-title{
+    background-color: #fcf8e3;
+    height: 180px;
+}
+.main-title_name{
+    text-align: center;
+}
+.main-title_subtitle{
+    text-align: center;
+}
+/*LOGO ANIMATED*/
+.logo-animated{
+    margin-top: 20px;
+}
 
 /*PROMO*/
 .promo{
@@ -127,6 +142,56 @@ body {
   border-radius: 5px;
   border: none;
 }
+/*ABOUT*/
+.about{
+  background-color: #fcf8e3;
+  height: 250px;
+}
+.about-title{
+  text-align: center;
+}
+.about-title_subtitle{
+  text-align: center;
+}
+.about-text{
+  text-align: center;
+}
+
+/*ADVANTAGES*/
+.advantages{
+  background-color: #dff0d8;
+  height: 300px;
+}
+.advantages-title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.advantages-image{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.advantages-text{
+  text-align: center;
+}
+/*PROCESS-REGISTRATION*/
+.process-registration{
+  text-align: center;
+  height: 300px; 
+  background-color: #f2dede;
+}
+.registration-title{
+  text-align: center; 
+}
+.registration-subtitle{
+  text-align: center;  
+}
+.registration-subtitle_list li{
+list-style-type: none;   
+}
+/*CHRONOLOGY*/
+
+/*TEAM-LEADER*/
+
 
 /*FOOTER*/
 .soc-buttons{
