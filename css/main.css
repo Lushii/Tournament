@@ -58,6 +58,7 @@ body {
 }
 .top-nav_items a{
     padding: 20px 20px;
+    color: #068456;
 }
 .top-nav_items a:hover{
     text-decoration: underline;
@@ -78,7 +79,8 @@ body {
 }
 /*TITLE*/
 .main-title{
-    background-color: #fcf8e3;
+    /*background-color: #fcf8e3;*/
+    background-color: #fff;
     min-height: 180px;
 }
 .short-title{
@@ -93,16 +95,21 @@ body {
     text-align: center;
     display: block;
     font-family: "FedraSansPro-Bold";
-    color: green;
+    color: #14714f;
+    /*color: green;*/
     font-weight: bold;
-    font-size: 35px
+    font-size: 35px;
+
+    margin-top: 47px;
+    margin-bottom: 0;
 
 }
 .main-title_subtitle{
     text-align: center;
     display: block;
     font-family: "FedraSansPro-Bold";
-    color: green;
+    color: #14714f;
+    /*color: green;*/
     font-weight: bold;
     font-size: 25px;
 }
@@ -113,14 +120,28 @@ body {
 
 /*PROMO*/
 .promo{
-    background-image: url(../img/PromoBGR.png);
-    min-height: 546px;
+    /*background-image: url(../img/PromoBGR.png);*/
+    background-image: url(../img/bannerTop.png);
+    min-height: 470px;
     min-width: 1270px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    /*z-index: 1;*/
 }
+
+/*.promo-overlay{
+    background-color: #000;
+    opacity: 0.2;
+    min-height: 470px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.promo-container{
+    z-index: 3;
+}*/
 
 .promo-title_text{
     color: #fff;
