@@ -122,7 +122,8 @@ body {
 /*PROMO*/
 .promo{
     /*background-image: url(../img/PromoBGR.png);*/
-    background-image: url(../img/bannerTop.png);
+    /*background-image: url(../img/bannerTop.png);*/
+    background-image: url(../img/bannerTopDark.png);
     min-height: 470px;
     min-width: 1270px;
     -webkit-background-size: cover;
