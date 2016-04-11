@@ -24,7 +24,8 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "FedraSansPro-Bold", sans-serif;
+	/*font-family: "FedraSansPro-Bold", sans-serif;*/
+	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 }
 .container{
@@ -49,10 +50,12 @@ body {
     padding: 0;
     list-style-type: none;
 }
-.top-nav_items{
-    float: left;
-    margin-left: 110px;
-}
+
+/*.logo-animated{
+     float: left;
+     margin-left: 110px;
+}*/
+
 .top-nav_items ul li{
     display: inline-block;
 }
@@ -73,7 +76,7 @@ body {
     border: medium none;
     font-size: 25px;
     color: forestgreen;
-    float: right;
+    /*float: right;*/
     margin-left: 20px;
     float: left;
 }
@@ -86,28 +89,33 @@ body {
 .short-title{
     text-align: center;
     display: block;
-    font-family: "FedraSansPro-Bold";
-    color: green;
+    /*font-family: "FedraSansPro-Bold";*/
+    font-family: "RobotoRegular", sans-serif;
+    /*color: green;*/
+    color: #14714f;
     font-weight: bold;
     font-size: 35px  
 }
 .main-title_name{
     text-align: center;
     display: block;
-    font-family: "FedraSansPro-Bold";
+    /*font-family: "FedraSansPro-Bold";*/
+    font-family: "RobotoRegular", sans-serif;
     color: #14714f;
     /*color: green;*/
     font-weight: bold;
     font-size: 35px;
 
-    margin-top: 47px;
+    /*padding-top: 20px;*/
+    margin-top: 20px;
     margin-bottom: 0;
 
 }
 .main-title_subtitle{
     text-align: center;
     display: block;
-    font-family: "FedraSansPro-Bold";
+    /*font-family: "FedraSansPro-Bold";*/
+    font-family: "RobotoRegular", sans-serif;
     color: #14714f;
     /*color: green;*/
     font-weight: bold;
@@ -117,24 +125,52 @@ body {
 /*LOGO ANIMATED*/
 .logo-animated{
     margin-top: 20px;
+    /*float: left;*/
+    display: inline-block;
 }
 
+.main-title-text{
+    /*float: right;*/
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0;
+    height: 140px;
+    font-size: 140px;
+}
+
+/*.main-logo-block{
+    max-width: 900px;
+}*/
+
 /*PROMO*/
-.promo{
+
+.promo-container{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.promo-block{
     /*background-image: url(../img/PromoBGR.png);*/
     /*background-image: url(../img/bannerTop.png);*/
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     background-image: url(../img/bannerTopDark.png);
     min-height: 470px;
-    min-width: 1270px;
+    /*min-width: 1270px;*/
+    max-width: 1270px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     /*z-index: 1;*/
+
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
 }
 
 .promo-text-block{
-    margin-left: -30px;
+    /*margin-left: -30px;*/
 }
 
 /*.promo-overlay{
@@ -167,13 +203,22 @@ body {
     width: 100%;
 }
 
+.intermediate-slogan{
+    margin: 30px auto;
+    padding: 10px auto;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
 /*BUTTON*/
 .take-part{
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  border: 4px solid #fff;
+  /* border: 4px solid #fff;*/
+  border: 0;
   border-radius: 30px;
   padding: 10px 50px;
   background-color: forestgreen;
@@ -182,15 +227,19 @@ body {
   margin: 30px auto;
 }
 .take-part:hover{
-  border: 4px solid #7ce6df;
+  /*border: 4px solid #7ce6df;*/
+  border: 0;
   background-color: darkseagreen;
     
 }
+
 .take-part:active{
-  border: 3px solid #7ce6df;
+  /*border: 3px solid #7ce6df;*/
+  border: 0;
   background-color: #c7d1d8;
     
 }
+
 /*FORM*/
 .sign-in{
   margin: 0;
@@ -224,7 +273,8 @@ body {
     color: #fff;
     /*text-transform: uppercase;*/
     font-weight: bold;
-    border: 1px solid #fff;
+    border: 0;
+    /*border: 1px solid #fff;*/
     /*border: 4px solid #fff;*/
     border-radius: 2px;
     /*padding: 10px 50px;*/
@@ -327,12 +377,14 @@ list-style-type: none;
 }
 
 .chronology{
-    background: #222;
+    /*background: #222;*/
+    background: #fff;
     color: #fff;
     font-size: 14px;
 }
 
 /*TIMELINE*/
+
 
 /*TEAM-LEADER*/
 

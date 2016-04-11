@@ -4,14 +4,17 @@
 }
 
 #timeline {
-	background: #222;
-	font-family: Georgia, serif;
-	color: #fff;
+	/*background: #222;*/
+	/*font-family: Georgia, serif;*/
+	font-family: "RobotoRegular", sans-serif;
+	/*color: #fff;*/
+	color: #838383;
 	font-size: 14px;
 }
 
 #timeline a {
-	color: #ffffcc;
+	/*color: #ffffcc;*/
+	color: #868686;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -22,7 +25,8 @@
 
 #timeline a:hover,
 #timeline a.selected {
-		color: #ffcc00;
+		/*color: #ffcc00;*/
+		color: #ffc744;
 	}
 
 #timeline h1,
@@ -50,7 +54,8 @@
 }
 
 #timeline {
-	width: 800px;
+	/*width: 800px;*/
+	width: 1000px;
 	height: 350px;
 	overflow: hidden;
 	margin: 100px auto;
@@ -59,7 +64,8 @@
 }
 
 #dates {
-	width: 800px;
+	/*width: 800px;*/
+	width: 1000px;
 	height: 60px;
 	overflow: hidden;
 }
@@ -83,13 +89,15 @@
 }
 		
 #issues {
-	width: 800px;
+	/*width: 800px;*/
+	width: 1000px;
 	height: 350px;
 	overflow: hidden;
 }
 
 #issues li {
-	width: 800px;
+	/*width: 800px;*/
+	width: 1000px;
 	height: 350px;
 	list-style: none;
 	float: left;
@@ -122,7 +130,8 @@
 }
 
 				#issues li h1 {
-					color: #ffcc00;
+					/*color: #ffc238;*/
+					color: #fcc44b;
 					font-size: 48px;
 					margin: 20px 0;
 					text-shadow: #000 1px 1px 2px;
@@ -133,7 +142,7 @@
 					margin-right: 70px;
 					font-weight: normal;
 					line-height: 22px;
-					text-shadow: #000 1px 1px 2px;
+					/*text-shadow: #000 1px 1px 2px;*/
 				}
 		
 		#grad_left,
@@ -145,11 +154,11 @@
 		}
 			#grad_left {
 		        left: 0;
-		        background: url('../images/grad_left.png') repeat-y;
+		        /*background: url('../images/grad_left.png') repeat-y;*/
 			}
 			#grad_right {
 		        right: 0;
-		        background: url('../images/grad_right.png') repeat-y;
+		        /*background: url('../images/grad_right.png') repeat-y;*/
 			}
 		
 		#next,
