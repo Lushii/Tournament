@@ -70,6 +70,7 @@ body {
     padding: 20px 20px;
     transition: all .25s;
   }
+
 /*hamburger*/
 .top-nav_button{
     background-color: transparent;
@@ -187,7 +188,8 @@ body {
 }*/
 
 .promo-title_text{
-    text-shadow: 1px 0px 0px black, 0 0 1em;
+    /*text-shadow: 1px 0px 0px black, 0 0 1em;*/
+    text-shadow: 0px 0px 0px rgba(0,0,0, 0.19), 0 0 1em;
     color: #fff;
     display: block;    
 }
@@ -363,6 +365,15 @@ body {
 .registration-subtitle_list li{
 list-style-type: none;   
 }
+
+.link-green{
+    color: #068456;
+}
+
+.link-green:hover{
+    color: #3e99b7;
+}
+
 /*INTERMEDIATE-3*/
 .intermediate-block__three{
     /*background-image: url(../img/view-from-above.png);*/
